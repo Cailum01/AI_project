@@ -281,7 +281,7 @@ def carTracking(file,video_index):
 
 video_index = 0
 videofiles = []
-for dirPath, dirNames, fileNames in sorted(os.walk("/home/pancala/Desktop/webcam/2016Y12M21D08H")):
+for dirPath, dirNames, fileNames in sorted(os.walk("\Users\Local.User\AI_project\webcam")):
     for f in sorted(fileNames):
         inputFile=os.path.join(dirPath, f)
         lastFile=os.path.splitext(f)[-1]
